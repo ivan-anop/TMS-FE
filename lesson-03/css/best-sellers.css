@@ -1,0 +1,99 @@
+.best-sellers__title {
+  text-align: center;
+  margin-bottom: 52px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.best-sellers {
+  padding: 60px 0;
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+.best-sellers-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.best-sellers-card__img {
+  max-width: 300px;
+  margin: 0 auto 27px;
+}
+
+.best-sellers-card__img img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.best-sellers-card {
+  text-align: center;
+}
+.best-sellers-card__title {
+  margin: 0 auto;
+  max-width: 160px;
+  margin-bottom: 18px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.best-sellers-card__price {
+  margin-bottom: 10px;
+  font-size: 17px;
+  line-height: 20px;
+  display: block;
+}
+
+.best-sellers-box {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+.best-sellers-wrap {
+  padding: 60px 0;
+}
+
+.best-sellers-box-image {
+  width: 385px;
+}
+
+.best-sellers-box-image img {
+  width: 100%;
+}
+
+.best-sellers-box-description {
+  width: calc(100% - 385px);
+  padding: 50px 50px;
+}
+
+.best-sellers-box--reversed .best-sellers-wrap {
+  flex-direction: row-reverse;
+}
+
+.best-sellers-box--reversed .best-sellers-box-description {
+  text-align: right;
+}
+.best-sellers-box--reversed .best-sellers-box-description__info {
+  margin-left: auto;
+}
+
+.best-sellers-box--reversed {
+  background-color: white;
+}
+
+.best-sellers-box-description__title {
+  font-size: 36px;
+  margin-bottom: 31px;
+}
+
+.best-sellers-box-description__info {
+  max-width: 498px;
+  font-size: 36px;
+}
+
+@media (max-width: 1000px) {
+  .best-sellers-wrap {
+    justify-content: center;
+    gap: 30px;
+  }
+}

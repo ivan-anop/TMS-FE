@@ -1,0 +1,24 @@
+.guides__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 60px;
+    margin-bottom: 27px;
+}
+
+.guides__text {
+    margin: 0 auto;
+    max-width: 632px;
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 47px;
+   } 
+
+   .guides__link { 
+    text-align: center;
+    line-height: 23px;
+    font-size: 20px; 
+    margin-bottom: 88px;
+    }
