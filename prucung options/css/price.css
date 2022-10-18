@@ -1,0 +1,32 @@
+.pricing-options {
+    text-align: center;
+    font-size: 36px;
+    max-width: 1170px; 
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+    font-weight: 400; 
+    padding: 0 50px;
+} 
+
+.line-img {
+    text-align: center; 
+    margin-bottom: 40px;
+} 
+
+.motto{
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf"); 
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 1169px;
+    line-height: 21px; 
+    margin-bottom: 79px; 
+}
+
+.tariff-cards:hover {
+    transform: translate(0, -15px);
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+}

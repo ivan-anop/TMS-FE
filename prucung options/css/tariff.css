@@ -1,0 +1,89 @@
+.pricing {
+   background-color: #F5F5F5;
+   padding: 50px 0; 
+   
+ } 
+
+ .list {
+   text-decoration: none;
+   list-style-type: none;
+   margin: auto; 
+   
+
+ }
+
+ .tariff-cards {
+   display: block;
+   width: 370px; 
+
+ }  
+
+ .tariff-card-name {
+   color:white; 
+   background-color: #333333;
+   border: 2px solid #F5F5F5; 
+   max-width: 370px;
+   line-height: 60px; 
+   text-align: center; 
+   font-size: 24px;
+   font-weight: 700;
+   font-family: "OpenSans";
+    src:url("../fonts/OpenSans-Bold.ttf");
+ } 
+
+ .tariff-card-price {
+   color:white; 
+   background-color: #333333;
+   border: 2px solid #F5F5F5; 
+   max-width: 370px;
+   line-height: 100px;
+   text-align: center; 
+   font-size: 36px;
+   font-weight: 700;
+   font-family: "OpenSans";
+    src:url("../fonts/OpenSans-Bold.ttf");
+ }
+
+ .tariff-card-note {
+   color:rgba(255, 255, 255, 0.5);; 
+   background-color: #333333;
+   border: 2px solid #F5F5F5; 
+   max-width: 370px;
+   line-height: 50px;
+   text-align: center; 
+   font-size: 18px;
+   font-weight: 700;
+   font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+ }
+
+ .list {
+   color:#86878B;
+   display: block; 
+   
+ } 
+
+ .list__item{
+   background-color: white; 
+   border-top: 2px solid #F5F5F5;
+   max-width: 370px; 
+   line-height: 50px; 
+   text-align: center; 
+   color: #86878B; 
+   font-size: 18px;
+   font-weight: 400;
+   font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+    display: block;
+ } 
+
+ .tariff-cards-wrap {
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+
+ 
+
+ 
+ 

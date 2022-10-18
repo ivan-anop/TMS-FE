@@ -1,0 +1,64 @@
+.review-title {
+    text-align: center;
+    font-size: 36px;
+    max-width: 1170px; 
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+    font-weight: 400; 
+    padding: 0 50px;
+} 
+
+.review-text {
+    padding: 38px 0 38px 0;
+    text-align: center;
+    color:#86878B;
+    max-width: 370px;
+    line-height: 21px;
+    font-size: 18px;
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+    font-weight: 400; 
+}
+
+.review-box {
+    background-color: #E2E2E2;
+    border-radius: 10px; 
+    max-width: 370px;
+    line-height: 180px;
+}
+
+.review-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.autor-persone{
+    margin-left: 33px;
+}
+.review-autor-wrap {
+    display: flex; 
+    margin-top: 66px;
+    justify-content: space-between;
+}
+
+.autor-name {
+    max-width: 269px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: "OpenSans";
+    src:url("../fonts/OpenSans-Bold.ttf");
+} 
+
+.autor-position {
+    margin-top: 15px;
+    max-width: 270px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+

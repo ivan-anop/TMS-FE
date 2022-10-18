@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 60px;
+    background-color: black;
+    width: 100%;
+    height: 164px;
+} 
+
+.footer-wrap {
+    display: flex; 
+    justify-content: center; 
+    padding: 43px; 
+} 
+
+.footer-icon + .footer-icon {
+    margin-left: 52px;
+}
+
+.production {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5); 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+
+}
