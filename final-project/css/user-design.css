@@ -1,0 +1,59 @@
+.user-design_images {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-design_img {
+  position: relative;
+  width: 25%;
+}
+
+.user-design_img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.description-design {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: red;
+  opacity: 0;
+  text-align: center;
+}
+
+.description-design:hover {
+  opacity: 0.8;
+  transition: 0.8s;
+}
+
+.user-design {
+  padding: 133px 0 114px;
+}
+
+.name {
+  margin-top: 110px;
+  font-size: 24px;
+  line-height: 60px;
+  font-family: "Releway";
+  src: url("../fonts/Raleway-Bold.ttf");
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.prof {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  font-family: "Releway";
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-weight: 400;
+}

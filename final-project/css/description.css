@@ -1,0 +1,47 @@
+.description-card-title {
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.description-card__img {
+  text-align: center;
+}
+
+.description-card__img img {
+  width: 33%;
+}
+
+.description-card-text {
+  color: #6c7279;
+  display: block;
+  text-align: center;
+  max-width: 370px;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Releway";
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-weight: 400;
+}
+
+.description-card {
+  width: 33%;
+  margin-top: 88px;
+}
+
+.description {
+  margin-top: 28px;
+}
+
+.description-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}

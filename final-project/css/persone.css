@@ -1,0 +1,51 @@
+.persone {
+  width: 25%;
+  margin-top: 50px;
+}
+
+.persone-name {
+  color: black;
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-family: "Releway";
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-weight: 700;
+}
+
+.persone-position {
+  color: #ff4343;
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-family: "Releway";
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-weight: 400;
+}
+
+.persone-text {
+  display: block;
+  color: #6c7279;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Releway";
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-weight: 400;
+}
+
+.persone-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cervis-link a {
+  color: black;
+}
+
+.servis-links {
+  margin-top: 37px;
+}
+

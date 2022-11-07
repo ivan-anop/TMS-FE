@@ -1,0 +1,21 @@
+.download-title {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Releway";
+  font-weight: 500;
+}
+
+.download-subtitle {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Releway";
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-weight: 700;
+  padding: 7px 0 50px;
+}
+
+.download {
+  padding: 159px 0 114px;
+}
