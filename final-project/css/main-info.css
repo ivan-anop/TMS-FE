@@ -52,6 +52,12 @@
   border: none;
 }
 
+@media (max-width:436px) {
+  .button {
+    max-width: 320px;
+  }
+}
+
 .button-click {
   text-align: center;
   margin-top: 81px;
@@ -62,3 +68,4 @@
   position: relative;
   padding-bottom: 120px;
 }
+

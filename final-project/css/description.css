@@ -45,3 +45,9 @@
   flex-wrap: wrap;
   
 }
+
+@media (max-width:1010px) {
+  .description-wrap {
+    max-width: none;
+  }
+}

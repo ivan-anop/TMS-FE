@@ -9,3 +9,27 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+@media (max-width: 1058px) {
+  .container {
+    max-width: 984px;
+  }
+}
+
+@media (max-width: 706px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+}
+
+/*@media (max-width: 750px) {
+  .container {
+    max-width: 320px;
+  }
+}

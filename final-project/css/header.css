@@ -8,10 +8,19 @@
   justify-content: space-between;
 }
 
+@media (max-width:780px) {
+  .navigation {
+    display: none;
+  }
+}
+
 .navigation-list {
   position: relative;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 765px;) {
+    display: none;
+  }
 }
 
 .navigation-list-item a {
@@ -20,7 +29,6 @@
   text-decoration: none;
   color: white;
   padding: 36px 0;
-  
 }
 
 .logo {
