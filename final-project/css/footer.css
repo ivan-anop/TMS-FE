@@ -60,7 +60,7 @@
 
 .footer-bottom__text {
   color: #808080;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: 400;
   line-height: 21px;
 }
@@ -76,4 +76,8 @@
 .social-network a:not(:first-child) {
   margin-left: 27px;
 
+}
+
+.footer-bottom__text-2 {
+  color: white;
 }
