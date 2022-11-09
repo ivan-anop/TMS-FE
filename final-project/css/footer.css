@@ -72,3 +72,8 @@
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
+.social-network a:not(:first-child) {
+  margin-left: 27px;
+
+}
